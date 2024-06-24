@@ -26,8 +26,8 @@
                 </q-item>
               </q-list>
             </q-btn-dropdown>
-            <q-toolbar-title></q-toolbar-title>
-            <q-btn class="bg-dark q-ml-auto"  icon="search"></q-btn>
+             
+            <q-btn class="bg-dark search-icon"  icon="search"></q-btn>
           </q-toolbar>
         
           <q-toolbar  class="row justify-between items-center resDevices" >
@@ -92,7 +92,10 @@ export default{
   display: none;
 
 }
-
+.search-icon{
+  position: absolute;
+  right: 0;
+}
 @media only screen and (max-width: 630px) {
   .navigation-toolbar{
     display : none;
